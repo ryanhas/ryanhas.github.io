@@ -119,3 +119,8 @@ input.addEventListener("keypress", addListAfterKeypress);
 window.addEventListener("beforeunload", saveState);
 
 window.addEventListener("load", restoreState);
+
+if ("serviceWorker" in navigator) {
+	// register service worker
+	navigator.serviceWorker.register("sw.js");
+  }
