@@ -120,4 +120,4 @@ window.addEventListener("beforeunload", saveState);
 
 window.addEventListener("load", restoreState);
 
-
+$('[id=sortable]').sortable();
