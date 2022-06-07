@@ -7,12 +7,11 @@ var db = window.localStorage;
 
 function getListFromStorage() {
 	var list = db.getItem('tasks');
-	if (list.length > 0) {
+	if (list) {
 	    return JSON.parse(list);
 	} else {
 		return []
 	}
-    
 }
 
 function saveState() {

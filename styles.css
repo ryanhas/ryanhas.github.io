@@ -1,7 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
 body {
-	background: #04A1BF;
+	background-color: wheat;
 	text-align: center;
-	font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+	font-family: 'Roboto', sans-serif;
+	max-width: 700px;
+	margin: 0 auto;
 }
 
 .intro {
@@ -10,9 +18,10 @@ body {
 }
 
 h1 {
-	color: #ffffff;
+	margin-top: 50px;
+	font-size: 40px;
+	color: black;
 	text-transform: uppercase;
-	font-weight: 800;
 }
 
 p {
@@ -21,23 +30,29 @@ p {
 
 #first {
 	margin-top: 10px;
-	color: #FFCD5D;
+	color:brown;
 }
 
 #second {
-	color: #51DF70;
-
+	color:darkgreen;
 }
 
 #third {
-	color: #025F70;
+	color: red;
 	margin-bottom: 30px;
 }
 
+#userInput {
+	border: 1px solid burlywood;
+	height: 25px;
+	border-radius: 5px;
+	min-width: 55%;
+	padding: 5px;
+}
 
 #enter, #clear {
-	border: none;
-	padding: 5px 15px;
+	border: 1px solid;
+	padding: 10px 15px;
 	border-radius: 5px;
 	color: #04A1BF;
 	background-color: #025F70;
@@ -54,12 +69,6 @@ p {
 	color: #FFCD5D;
 }
 
-ul {
-	text-align: left;
-	margin-top: 20px;
-}
-
-
 li {
 	list-style: none;
 	padding: 10px 20px;
@@ -69,7 +78,7 @@ li {
 	border: 2px solid #025f70;
 	border-radius: 5px;
 	margin-bottom: 10px;
-	background: #4EB9CD;
+	background-color: #4EB9CD;
 	transition: all 0.75s ease;
 	-webkit-transition: all 0.5s ease;
 	-moz-transition: all 0.5s ease;
@@ -78,29 +87,30 @@ li {
 }
 
 li:hover {
-	background: #76CFE0;
+	background-color: #76CFE0;
 }
 
 li > button {
 	font-weight: normal;
-	background: none;
+	background-color: none;
 	border: none;
 	float: right;
 	color: #025f70;
 	font-weight: 800;
+	border-radius: 10px;
 }
 
-input {
-	border-radius: 5px;
-	min-width: 65%;
-	padding: 5px;
-	border: none;
+ul {
+	text-align: left;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	margin-top: 30px;
 }
-
 
 .done {
-	background: #51DF70 !important;
-	color: #00891E;
+	background-color: #278c3d !important;
+	color: #2121a0;
 }
 
 .delete {
